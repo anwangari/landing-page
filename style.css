@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, .header-page, .header, .head-content, ul, .p0-content, .image-placeholder, .footer,
+.p1, .p2, .p1-content, .image, .card, .testimonial-author, .call-to-action, .call-to-action-button {
+    display: flex;
+}
+
+body {
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    font-family: Roboto, sans-serif;
+}
+
+.header-page {
+    flex-direction: column;
+    background-color: #1F2937;
+    align-self: stretch;
+    padding: 0 150px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.header {
+    justify-content: flex-start;
+    align-items: center;
+    height: max-content;
+}
+.logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    gap: 15px;
+    margin-left: auto;
+  }
+
+.head-content {
+    padding: 80px 0;
+}
+.p0-content {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    align-self: flex-start;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 36px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.image-placeholder {
+    height: 200px;
+    flex-basis: 800px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 150px;
+    flex-wrap: wrap;
+}
+
+.random {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 48px;
+}
+
+.p1-content {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.image {
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.p2 {
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px 220px;
+    flex-wrap: wrap;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial-author {
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.p3 {
+    background-color: white;
+    padding:100px 150px;
+    flex-wrap: wrap;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.call-to-action .content {
+    color: white;
+    padding:0 30px;
+}
+
+.call-to-action .content .text {
+    font-size: 24px;
+    font-weight: 700;
+}
+.call-to-action-button {
+    justify-content: center;
+    align-items: center;
+    padding:0 80px;
+    margin-left: auto;
+}
+
+.call-to-action button {
+    border: 3px solid white;
+    align-self: flex-end;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px 0;
+}
